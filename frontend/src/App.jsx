@@ -10,6 +10,7 @@ import Login from "./pages/Login"
 import PageNotFound from "./pages/PageNotFound"
 import Settings from "./pages/Settings"
 import Stats from "./pages/Stats"
+import TextClient from "./pages/TextClient"
 import { UserProvider } from "./UserContext"
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/stats" element={<Stats />} />
+          <Route path="/text-client" element={<TextClient />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
