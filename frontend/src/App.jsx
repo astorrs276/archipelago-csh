@@ -9,6 +9,7 @@ import Tracker from "./pages/Tracker"
 import Login from "./pages/Login"
 import PageNotFound from "./pages/PageNotFound"
 import Settings from "./pages/Settings"
+import TextClient from "./pages/TextClient"
 import { UserProvider } from "./UserContext"
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route path="/tracker/:roomId/:slot" element={<Tracker />} />
           <Route path="/login" element={<Login />} />
           <Route path="/settings" element={<Settings />} />
+          <Route path="/text-client" element={<TextClient />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>

@@ -17,6 +17,9 @@ export function Navbar({ user, full = true }) {
                         <a className="nav-link" href="/">Home</a>
                     </li>
                     <li className="nav-item">
+                        <a className="nav-link" href="/text-client">Text Client</a>
+                    </li>
+                    <li className="nav-item">
                         <a className="nav-link" href="https://github.com/Titanium-Lung/archipelago-csh">Github</a>
                     </li>
                 </ul>
